@@ -1,0 +1,7 @@
+[Tests]
+  [test] # creates an Exodiff object that will attempt to match the output from darcy_pressure_test.i to the gold file
+    type = Exodiff
+    input = darcy_pressure_test.i
+    exodiff = darcy_pressure_test_out.e
+  []
+[]
